@@ -25,8 +25,7 @@ function Home() {
             <section id="sobre" className={styles.section}>
                 <h1>Sobre Mim</h1>
                 <p>
-                    Olá, meu nome é [Seu Nome]. Sou um [sua profissão] especializado em [área de atuação].
-                    Meu objetivo é [seu objetivo profissional]. Confira meu trabalho na seção de portfólio abaixo!
+                    Olá, meu nome é Jonatas Adams. Confira meu trabalho na seção de portfólio abaixo!
                 </p>
             </section>
 
@@ -34,22 +33,54 @@ function Home() {
             <section id="portfolio" className={styles.section}>
                 <h1>Portfólio</h1>
                 <div className={styles.portfolio}>
+                    {/* Exemplo de Áudio */}
+                    <div className={styles.mediaItem}>
+                        <audio controls>
+                            <source src="/media/democomercial.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Esse é meu Demonstrativo de Voz - Comercial</p>
+
+                        <audio controls>
+                            <source src="/media/anhanguera.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Anhanguera</p>
+
+                        <audio controls>
+                            <source src="/media/bulgari.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Bulgari</p>
+
+                        <audio controls>
+                            <source src="/media/nike.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Nike</p>
+
+                        <audio controls>
+                            <source src="/media/timblack.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Tim Black</p>
+
+                        <audio controls>
+                            <source src="/media/yoki.mp3" type="audio/mpeg" />
+                            Seu navegador não suporta a reprodução de áudio.
+                        </audio>
+                        <p>Yoki</p>
+
+                    </div>
                     {/* Exemplo de Vídeo */}
                     <div className={styles.mediaItem}>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zQKthgvH9gY?si=9BJHdGDzBmg3Z4FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        {/*
                         <video controls>
                             <source src="https://www.youtube.com/watch?v=eHRsEZjdCjI" type="url" />
                             Seu navegador não suporta a reprodução de vídeos.
                         </video>
-                        <p>Projeto de Vídeo: [Descrição]</p>
-                    </div>
-
-                    {/* Exemplo de Áudio */}
-                    <div className={styles.mediaItem}>
-                        <audio controls>
-                            <source src="/media/sample-audio.mp3" type="audio/mpeg" />
-                            Seu navegador não suporta a reprodução de áudio.
-                        </audio>
-                        <p>Projeto de Áudio: [Descrição]</p>
+                        <p>Projeto de Vídeo: [Descrição]</p>*/}
                     </div>
                 </div>
             </section>
@@ -57,7 +88,7 @@ function Home() {
             {/* Seção Blog */}
             <section id="blog" className={styles.section}>
                 <h1>Blog</h1>
-                <p>Explore meus artigos sobre [assunto relacionado ao seu trabalho ou interesses].</p>
+                <p>Explore meus artigos</p>
                 <a href="/blog" className={styles.blogLink}>
                  Ver todos os posts
                 </a>
@@ -77,7 +108,7 @@ function Home() {
 
             {/* Rodapé */}
             <footer className={styles.footer}>
-                <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Jonatas Adams CNPJ 47.028.450/0001-56. Todos os direitos reservados.</p>
             </footer>
         </>
     );
