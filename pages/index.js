@@ -55,9 +55,13 @@ function Home() {
                 </p>
             </section>
 
-            <nav>
-                <Link href="/politica-privacidade">Políticas de Privacidade e Termos de Uso</Link>
-            </nav>
+            <div className="bg-gray-100 h-screen flex items-center justify-center">
+                <h1 className="text-3xl font-bold text-purple-600">
+                Tailwind CSS Funcionando!
+                </h1>
+            </div>
+
+
 
             {/* Seção Portfólio */}
             <section id="portfolio" className={styles.section}>
@@ -151,6 +155,9 @@ function Home() {
 
             {/* Rodapé */}
             <footer className={styles.footer}>
+                <nav>
+                    <Link href="/politica-privacidade">Políticas de Privacidade e Termos de Uso</Link>
+                </nav>
                 <p>&copy; 2024 Jonatas Adams CNPJ 47.028.450/0001-56. Todos os direitos reservados.</p>
             </footer>
         </>
