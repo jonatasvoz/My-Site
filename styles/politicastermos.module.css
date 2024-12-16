@@ -1,0 +1,44 @@
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .mainTitle {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 2rem;
+  }
+  
+  .termsTitle {
+    font-size: 1.8rem;
+    color: #222;
+    margin-top: 2rem;
+  }
+  
+  .subTitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  .paragraph {
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  .list {
+    padding-left: 1.5rem;
+  }
+  
+  .listItem {
+    margin-bottom: 0.5rem;
+  }
+  

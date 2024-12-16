@@ -1,4 +1,26 @@
+import React, { useState, useEffect } from 'react'; 
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/home.module.css';
+
 function Home() {
+    const [consent, setConsent] = useState(false);
+    const [showBanner, setShowBanner] = useState(false);
+
+    useEffect(() => {
+        // Verifica se o consentimento já foi dado
+        const storedConsent = localStorage.getItem('lgpdConsent');
+        if (!storedConsent) {
+            setShowBanner(true);
+        }
+    }, []);
+
+    const handleConsent = () => {
+        localStorage.setItem('lgpdConsent', 'true');
+        setConsent(true);
+        setShowBanner(false);
+    };
+
     return (
     <div>
         <head>
@@ -32,6 +54,10 @@ function Home() {
                     Olá, meu nome é Jonatas Adams. Confira meu trabalho na seção de portfólio abaixo!
                 </p>
             </section>
+
+            <nav>
+                <Link href="/politica-privacidade">Políticas de Privacidade e Termos de Uso</Link>
+            </nav>
 
             {/* Seção Portfólio */}
             <section id="portfolio" className={styles.section}>
@@ -88,6 +114,19 @@ function Home() {
                     </div>
                 </div>
             </section>
+
+               {/* Banner de Consentimento */}
+               {showBanner && (
+                <div className={styles.lgpdBanner}>
+                    <p>
+                        Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa 
+                        <a href="/politica-privacidade" className={styles.privacyLink}> Política de Privacidade</a>.
+                    </p>
+                    <button onClick={handleConsent} className={styles.consentButton}>
+                        Aceitar
+                    </button>
+                </div>
+            )}
 
             {/* Seção Blog */}
             <section id="blog" className={styles.section}>
