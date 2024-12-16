@@ -2,7 +2,7 @@ function Home() {
     return (
     <div>
         <head>
-            <meta name="facebook-domain-verification" content="c4gax5tztc4nqngxxwbj5f65tfe7un" />
+            <meta name="facebook-domain-verification" content="a5yjqn2h0jh0zntp369naqfti8h0vc" />
         </head>
         <div>Aguardem, novidades estão por vir. Obrigado :-D</div>
     </div>
