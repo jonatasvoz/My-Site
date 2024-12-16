@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/home.module.css';
+import Layout from '../components/layout';
 
 function Home() {
     const [consent, setConsent] = useState(false);
@@ -47,13 +48,33 @@ function Home() {
                 </nav>
             </header>
 
-            {/* Seção "Sobre Mim" */}
-            <section id="sobre" className={styles.section}>
-                <h1>Sobre Mim</h1>
-                <p>
-                    Olá, meu nome é Jonatas Adams. Confira meu trabalho na seção de portfólio abaixo!
+            <div className="flex items-center justify-center h-screen bg-blue-500">
+                <h1 className="text-4xl font-bold text-white">
+                Tailwind CSS está funcionando!
+                </h1>
+            </div>
+
+            <div className="p-6 bg-green-300 rounded-lg shadow-md">
+                <p className="text-center text-gray-800 font-medium">
+                Tailwind está incrível!
                 </p>
-            </section>
+            </div>
+
+            <Layout>
+                <section className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-center py-20 px-4">
+                    <div className="container mx-auto">
+                        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                        Bem-vindo ao Meu Site
+                        </h1>
+                        <p className="text-lg md:text-2xl mb-6">
+                        Aqui você encontra meu portfólio, blog e muito mais.
+                        </p>
+                        <button className="bg-white text-purple-700 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100">
+                        Conheça Mais
+                        </button>
+                    </div>
+                </section>
+            </Layout>
 
             <div className="bg-gray-100 h-screen flex items-center justify-center">
                 <h1 className="text-3xl font-bold text-purple-600">
