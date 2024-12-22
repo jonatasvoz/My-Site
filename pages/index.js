@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/layout';
+import Portfolio from '../pages/portfolio'
+import About from '../pages/about';
 import styles from '../styles/home.module.css';
 
 function Home() {
@@ -21,7 +23,6 @@ function Home() {
     };
 
     return (
-        <>
             <Layout>
                 <section className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-center py-20 px-4">
                     <div className="container mx-auto">
@@ -36,22 +37,25 @@ function Home() {
                         </button>
                     </div>
                 </section>
-            </Layout>
-
+                <About />
+                <Portfolio />
             {/* Banner de Consentimento */}
             {showBanner && (
                 <div className={styles.lgpdBanner}>
                     <p>
                         Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa
-                        <a href="/politica-privacidade" className={styles.privacyLink}> Política de Privacidade</a>.
+                        <a href="/politica-privacidade" className={styles.privacyLink}> 
+                        {' '}
+                        Política de Privacidade
+                        </a>.
                     </p>
                     <button onClick={handleConsent} className={styles.consentButton}>
                         Aceitar
                     </button>
                 </div>
             )}
-        </>
+        </Layout>
     );
 }
 
-export default Home
+export default Home;

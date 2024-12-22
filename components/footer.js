@@ -5,8 +5,8 @@ const Footer = () => {
         {/* Contato */}
         <div>
           <h3 className="text-xl font-bold mb-2">Contato</h3>
-          <p>Email: jonatas@email.com</p>
-          <p>Telefone: (11) 98765-4321</p>
+          <p>Email: jonatasadamsvoz@gmail.com</p>
+          <p>Telefone: (47) 98843-2906</p>
         </div>
         {/* Links rápidos */}
         <div>
