@@ -54,7 +54,7 @@ function Home() {
                     </button>
                 </div>
             )}
-        </Layout>
+            </Layout>
     );
 }
 
