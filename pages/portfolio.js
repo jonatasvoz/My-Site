@@ -12,7 +12,7 @@ const Portfolio = () => {
                             <source src="/media/democomercial.mp3" type="audio/mpeg" />
                             Seu navegador não suporta a reprodução de áudio.
                         </audio>
-                        <p className="text-sm text-gray-600 mt-2">Experiência em locução comercial para rádio, televisão e internet, com habilidade em transmitir emoção e persuasão através da voz. </p>
+                        <div className="text-sm text-gray-600 mt-2">Experiência em locução comercial para rádio, televisão e internet, com habilidade em transmitir emoção e persuasão através da voz. </div>
                     </div>
                     <div className="bg-white p-4 rounded-lg shadow-md">
                         <h3 className="font-semibold mb-2">Anhanguera</h3>
@@ -52,19 +52,19 @@ const Portfolio = () => {
                     <div className="bg-gray-100 p-4 rounded-lg shadow-md">
                         <h3 className="text-xl font-bold mb-2">Homenagens</h3>
                         <iframe width="460" height="315" src="https://www.youtube.com/embed/zQKthgvH9gY?si=9BJHdGDzBmg3Z4FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p class="body">Emocione-se com uma locução dedicada a momentos
+                        <div class="body">Emocione-se com uma locução dedicada a momentos
                             especiais. Com voz cativante e sensibilidade, entregamos
                             homenagens únicas que eternizam memórias
-                            preciosas.</p>
+                            preciosas.</div>
                     </div>
                     <div className="bg-gray-100 p-4 rounded-lg shadow-md">
                         <h3 className="text-xl font-bold mb-2">Dublagem</h3>
                         <iframe width="460" height="315" src="https://www.youtube.com/embed/GaYQwIwYaCE?si=3rH1UM8itSx9aJPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p class="body">
+                        <div class="body">
                             Minha capacidade de adaptação e interpretação permite que
                             eu me encaixe perfeitamente no papel, trazendo vida e
                             personalidade aos personagens.
-                        </p>
+                        </div>
                     </div>
                     <div className="bg-gray-100 p-4 rounded-lg shadow-md">
                         <h3 className="text-xl font-bold mb-2">Projeto 2</h3>
