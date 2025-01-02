@@ -11,7 +11,7 @@ export default function Blog() {
           {posts.map((post) => (
             <div key={post.id} className="bg-white p-4 rounded-lg shadow-lg">
               <h2 className="text-2xl font-semibold mb-2">{post.title}</h2>
-              <p className="text-gray-600">{post.description}</p>
+              <div className="text-gray-600">{post.description}</div>
               <span className="text-sm text-gray-500">{post.date}</span>
             </div>
           ))}
