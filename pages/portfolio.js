@@ -1,4 +1,6 @@
-const Portfolio = () => {
+import React from 'react';
+
+export default function Portfolio() {
     return (
         <section className="bg-gray-100 py-10">
             <div className="container mx-auto">
@@ -75,5 +77,3 @@ const Portfolio = () => {
         </section>
     );
 };
-
-export default Portfolio;
