@@ -32,6 +32,7 @@ function Home() {
         <html>
             <head>
                 <meta name="facebook-domain-verification" content="a5yjqn2h0jh0zntp369naqfti8h0vc" />
+                <meta property="og:image" content="/media/JonatasAdamsCorBranca.png" />
             </head>
             <body>
                 <Layout>
