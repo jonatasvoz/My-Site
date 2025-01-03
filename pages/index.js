@@ -30,6 +30,9 @@ function Home() {
 
     return (
         <html>
+            <head>
+                <meta name="facebook-domain-verification" content="a5yjqn2h0jh0zntp369naqfti8h0vc" />
+            </head>
             <body>
                 <Layout>
                     <section className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-center py-20 px-4">
