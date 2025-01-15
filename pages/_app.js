@@ -1,5 +1,7 @@
+import React from 'react';
 import Layout from '../components/layout';
 import '../styles/globals.css';
+import PropTypes from 'prop-types';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -8,3 +10,8 @@ export default function MyApp({ Component, pageProps }) {
     </Layout>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired
+};

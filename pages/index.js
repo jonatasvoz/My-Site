@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../components/layout';
 import Portfolio from '../pages/portfolio';
 import About from '../pages/about';
 import styles from '../styles/home.module.css';
 
 function Home() {
-    const [consent, setConsent] = useState(false);
     const [showBanner, setShowBanner] = useState(false);
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
-        // Marca que o código está sendo executado no cliente
         setIsClient(true);
-
-        // Verifica se o consentimento já foi dado
         const storedConsent = localStorage.getItem('lgpdConsent');
         if (!storedConsent) {
             setShowBanner(true);
@@ -22,14 +17,13 @@ function Home() {
 
     const handleConsent = () => {
         localStorage.setItem('lgpdConsent', 'true');
-        setConsent(true);
         setShowBanner(false);
     };
 
     if (!isClient) return null;
 
     return (
-        <Layout>
+        <>
             <section className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-center py-20 px-4">
                 <div className="container mx-auto">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4">Bem-vindo ao Meu Site</h1>
@@ -57,7 +51,7 @@ function Home() {
                     </button>
                 </div>
             )}
-        </Layout>
+        </>
     );
 }
 

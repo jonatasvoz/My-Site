@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Blog() {
     const posts = [
       { id: 1, title: "Post 1", description: "Esse é o primeiro post do meu blog.", date: "01/06/2024" },
