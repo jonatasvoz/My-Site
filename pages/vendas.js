@@ -170,13 +170,11 @@ export default function Vendas() {
                     <div className="absolute right-4 bottom-1/4 text-yellow-300 text-2xl">⭐</div>
                     <div className="absolute left-8 bottom-1/3 text-white text-2xl">✨</div>
 
-                    {/* Preço e CTA */}
+                    {/* Preço e CTA */}                  
                     <div className="bg-purple-500/90 backdrop-blur-sm rounded-xl p-8 text-center transform -rotate-1 shadow-lg">
-                        <p className="font-bold">
+                        <div className="bg-[#f4d03f] rounded-lg p-3 text-white font-bold text-2xl text-center mb-8 shadow-md">
                             Transforme o aprendizado das crianças em uma jornada de fé e diversão. Clique no botão abaixo e adquira já o seu pacote de e-books para imprimir!                        
-                        </p>
-                    </div>
-                    <div className="bg-purple-500/90 backdrop-blur-sm rounded-xl p-8 text-center transform -rotate-1 shadow-lg">
+                        </div>
                         <div className="text-2xl text-white mb-2">
                             <span className="line-through">De R$ 97,00</span>
                         </div>
@@ -224,7 +222,7 @@ export default function Vendas() {
                             <p className="text-sm">
                                 Dúvidas? Estamos aqui para ajudar!
                                 <a 
-                                    href="https://wa.me/5547988432906" 
+                                    href="https://wa.me/5547988432906/?text=Gostaria de saber mais sobre o Kit Biblikids" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
                                     className="block mt-2 text-yellow-300 hover:text-yellow-400"
