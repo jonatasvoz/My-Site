@@ -1,5 +1,7 @@
+'use client';
+
 import React, { useEffect } from 'react';
-import Seo from '../components/Seo';
+import Seo from '../../../components/Seo';
 import Image from 'next/image';
 
 export default function Vendas() {

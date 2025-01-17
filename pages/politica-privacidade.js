@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from '../styles/politicastermos.module.css';
 
 const PoliticasTermos = () => {
@@ -84,7 +85,7 @@ const PoliticasTermos = () => {
         </section>
         <section>
           <h3 className={styles.subTitle}>6. Contato</h3>
-          <div className={styles.paragraph}>Se você tiver dúvidas sobre os Termos de Uso ou Políticas de Privacidade, entre em contato pelo e-mail: teste@teste.com.br.</div>
+          <div className={styles.paragraph}>Se você tiver dúvidas sobre os Termos de Uso ou Políticas de Privacidade, entre em contato pelo e-mail: biblikids.suporte@gmail.com.</div>
         </section>
     </div>
   );
