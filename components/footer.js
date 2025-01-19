@@ -113,6 +113,7 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-4">Termos de Uso</h3>
           <ul className="space-y-2">
             <li><a href="/politica-privacidade" className="hover:text-blue-400">Política de Privacidade</a></li>
+            <li><a href="/termos-de-uso" className="hover:text-blue-400">Termos de Uso</a></li>
           </ul>
         </div>
       </div>

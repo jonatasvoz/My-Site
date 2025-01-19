@@ -53,7 +53,7 @@ const PoliticasTermos = () => {
           <li className={styles.listItem}>Revogar o consentimento para o uso de seus dados.</li>
         </ul>
       </section>
-      <div>Para exercer seus direitos, entre em contato pelo e-mail: teste@teste.com.br</div>
+      <div>Para exercer seus direitos, entre em contato pelo e-mail: biblikids.suporte@gmail.com</div>
         <h2 className={styles.termsTitle}>Termos de Uso</h2>
         <div className={styles.paragraph}>
           <strong>Última atualização:</strong> [16/12/2024]
