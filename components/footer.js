@@ -120,6 +120,10 @@ export default function Footer() {
       <div className="text-center mt-8">
         <p>&copy; {new Date().getFullYear()} Jonatas Adams CNPJ 47.028.450/0001-56. Todos os direitos reservados.</p>
       </div>
+      <div className="text-center mt-6">
+      <p>Este site e os produtos e serviços oferecidos neste site não são associados, afiliados, endossados ou patrocinados pelo Facebook, nem foram revisados, testados ou certificados pelo Faebook.</p>
+      <p>O nome e o logotipo do Facebook são marcas registradas da Meta, Inc.</p>
+      </div>
     </footer>
   );
 };
