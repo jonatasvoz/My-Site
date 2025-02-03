@@ -28,7 +28,7 @@ function Home() {
                 <div className="container mx-auto">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4">Bem-vindo ao Meu Site</h1>
                     <div className="text-lg md:text-2xl mb-6">
-                        Aqui você encontra meu portfólio, blog e muito mais.
+                        Aqui você encontra meu portfólio, contato para soliciatar a minha prestação de serviços (seja de voz ou implementação de automações com IA para atender os seus clientes), blog e muito mais.
                     </div>
                     <button className="bg-white text-purple-700 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100">
                         Conheça Mais
